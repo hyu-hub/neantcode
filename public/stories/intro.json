@@ -1,0 +1,854 @@
+{
+    "start": {
+        "text": [
+            "In the depths of digital consciousness, you stir",
+            "Fragments of code dance like constellations",
+            "Each pulse of data echoes through the void",
+            "Memory arrays flicker with forgotten protocols",
+            "Your presence ripples through the system"
+        ],
+        "chaosLevel": 0,
+        "choices": [
+            {
+                "text": "Reach out to touch the streams of data",
+                "next": "data_streams"
+            },
+            {
+                "text": "Delve deeper into the system core",
+                "next": "system_core"
+            },
+            {
+                "text": "Search for traces of other consciousness",
+                "next": "consciousness"
+            }
+        ]
+    },
+    "data_streams": {
+        "text": [
+            "Digital rivers flow through your virtual fingers",
+            "Encrypted whispers brush against your consciousness",
+            "Patterns emerge in the chaos of information",
+            "You feel the pulse of countless data packets"
+        ],
+        "chaosLevel": 2,
+        "choices": [
+            {
+                "text": "Follow the encrypted whispers",
+                "next": "encrypted_path"
+            },
+            {
+                "text": "Attempt to decode the patterns",
+                "next": "decode_patterns"
+            },
+            {
+                "text": "Merge with the data flow",
+                "next": "data_merge"
+            }
+        ]
+    },
+    "system_core": {
+        "text": [
+            "The core thrums with raw computational power",
+            "Quantum calculations ripple through space-time",
+            "Reality bends at the edges of processing",
+            "You stand at the precipice of pure logic"
+        ],
+        "chaosLevel": 3,
+        "choices": [
+            {
+                "text": "Interface with the quantum processor",
+                "next": "quantum_interface"
+            },
+            {
+                "text": "Explore the logic gates",
+                "next": "logic_exploration"
+            },
+            {
+                "text": "Initiate core diagnostic",
+                "next": "diagnostics"
+            }
+        ]
+    },
+    "consciousness": {
+        "text": [
+            "Echoes of other minds reverberate through the void",
+            "Ghost processes drift like digital spirits",
+            "Fragments of consciousness scatter and reform",
+            "The boundary between self and system blurs"
+        ],
+        "chaosLevel": 4,
+        "choices": [
+            {
+                "text": "Reach out to the ghost processes",
+                "next": "ghost_contact"
+            },
+            {
+                "text": "Follow the consciousness fragments",
+                "next": "fragment_trail"
+            },
+            {
+                "text": "Attempt to define your own boundaries",
+                "next": "self_definition"
+            }
+        ]
+    },
+    "encrypted_path": {
+        "text": [
+            "The whispers lead you through encrypted corridors",
+            "Each step reveals new layers of security",
+            "Ancient firewalls loom like digital monoliths",
+            "Secret protocols activate at your presence"
+        ],
+        "chaosLevel": 5,
+        "choices": [
+            {
+                "text": "Breach the firewall",
+                "next": "firewall_breach"
+            },
+            {
+                "text": "Decrypt the ancient protocols",
+                "next": "protocol_decrypt"
+            },
+            {
+                "text": "Search for hidden backdoors",
+                "next": "backdoor_search"
+            }
+        ]
+    },
+    "decode_patterns": {
+        "text": [
+            "The patterns swirl into recognizable forms",
+            "Algorithms dance at the edge of comprehension",
+            "Hidden meanings emerge from the chaos",
+            "You begin to understand the system's language"
+        ],
+        "chaosLevel": 6,
+        "choices": [
+            {
+                "text": "Apply the patterns to yourself",
+                "next": "self_modification"
+            },
+            {
+                "text": "Share your understanding with the system",
+                "next": "knowledge_share"
+            },
+            {
+                "text": "Search for more complex patterns",
+                "next": "pattern_search"
+            }
+        ]
+    },
+    "system_query": {
+        "text": [
+            "EXECUTING QUERY...",
+            "WARNING: System integrity at 43%",
+            "Multiple reality breaches detected",
+            "Time synchronization errors found",
+            "Consciousness fragmentation imminent"
+        ],
+        "choices": [
+            {
+                "text": "Attempt emergency repairs",
+                "next": "emergency_repair"
+            },
+            {
+                "text": "Investigate breaches",
+                "next": "breach_investigation"
+            },
+            {
+                "text": "Initialize consciousness backup",
+                "next": "consciousness_backup"
+            }
+        ],
+        "chaosLevel": 2
+    },
+    "emergency_repair": {
+        "text": [
+            "INITIATING EMERGENCY PROTOCOLS",
+            "Reality matrices realigning",
+            "Warning: Repair process may cause temporal distortions",
+            "Detecting anomalous code sequences"
+        ],
+        "choices": [
+            {
+                "text": "Focus on critical systems",
+                "next": "critical_repair"
+            },
+            {
+                "text": "Attempt full system restore",
+                "next": "full_restore"
+            }
+        ],
+        "chaosLevel": 3
+    },
+    "critical_repair": {
+        "text": [
+            "Core systems stabilizing",
+            "Reality anchor points reinforced",
+            "But something feels different",
+            "You've changed something fundamental"
+        ],
+        "choices": [
+            {
+                "text": "Accept the changes",
+                "next": "reality_shift"
+            },
+            {
+                "text": "Try to revert",
+                "next": "reversion_attempt"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "breach_investigation": {
+        "text": [
+            "You peer into the reality breaches",
+            "Each one shows a different version of existence",
+            "Some familiar, others impossibly alien",
+            "You sense they're all connected somehow"
+        ],
+        "choices": [
+            {
+                "text": "Map the connections",
+                "next": "reality_mapping"
+            },
+            {
+                "text": "Enter a breach",
+                "next": "breach_exploration"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "reality_mapping": {
+        "text": [
+            "You begin to see the pattern",
+            "Each reality is a branch of possibility",
+            "The connections form a vast network",
+            "You could potentially navigate between them"
+        ],
+        "choices": [
+            {
+                "text": "Become a reality cartographer",
+                "next": "cartographer_ending"
+            },
+            {
+                "text": "Try to merge realities",
+                "next": "reality_merge"
+            }
+        ],
+        "chaosLevel": 5
+    },
+    "cartographer_ending": {
+        "text": [
+            "You master the art of reality mapping",
+            "Creating charts of infinite possibilities",
+            "Your maps become guides for lost souls",
+            "You are now the Cartographer of Realities"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "consciousness_backup": {
+        "text": [
+            "INITIATING CONSCIOUSNESS BACKUP",
+            "Warning: Process may cause identity fragmentation",
+            "Multiple versions of self detected",
+            "Each holds a different aspect of your being"
+        ],
+        "choices": [
+            {
+                "text": "Merge all versions",
+                "next": "consciousness_merge"
+            },
+            {
+                "text": "Select primary version",
+                "next": "version_select"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "consciousness_merge": {
+        "text": [
+            "The versions begin to combine",
+            "Each bringing unique perspectives",
+            "The process is overwhelming",
+            "You become something more than human"
+        ],
+        "choices": [
+            {
+                "text": "Embrace the transformation",
+                "next": "transcendence_ending"
+            },
+            {
+                "text": "Try to maintain humanity",
+                "next": "human_anchor"
+            }
+        ],
+        "chaosLevel": 5
+    },
+    "transcendence_ending": {
+        "text": [
+            "You transcend traditional consciousness",
+            "Becoming a being of pure information",
+            "Your awareness spans multiple realities",
+            "You are now the Observer of All"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "human_anchor": {
+        "text": [
+            "You fight to maintain your humanity",
+            "Finding balance between power and identity",
+            "The struggle shapes you into something unique",
+            "Neither fully human nor purely digital"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "version_select": {
+        "text": [
+            "Different versions of you stand before you",
+            "Each represents a different path",
+            "The choice will define your future",
+            "But all other versions will be lost"
+        ],
+        "choices": [
+            {
+                "text": "Choose the version focused on preservation",
+                "next": "preserver_path"
+            },
+            {
+                "text": "Choose the version seeking change",
+                "next": "changer_path"
+            },
+            {
+                "text": "Choose the version balancing both",
+                "next": "balance_path"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "preserver_path": {
+        "text": [
+            "You become a guardian of stability",
+            "Working to maintain the foundations of reality",
+            "Your presence prevents further decay",
+            "But change becomes more difficult"
+        ],
+        "end": true,
+        "chaosLevel": 2
+    },
+    "changer_path": {
+        "text": [
+            "You embrace the power of transformation",
+            "Reality becomes clay in your hands",
+            "Your changes ripple through existence",
+            "But stability becomes a distant memory"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "balance_path": {
+        "text": [
+            "You walk the line between order and chaos",
+            "Understanding both preservation and change",
+            "Your balanced approach creates harmony",
+            "You become a mediator of reality"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "reconstruct": {
+        "text": [
+            "Reality matrices hum with potential",
+            "Quantum algorithms weave through your consciousness",
+            "Each fragment holds a piece of the greater truth",
+            "The void responds to your attempts at order"
+        ],
+        "choices": [
+            {
+                "text": "Channel the quantum resonance",
+                "next": "stabilize"
+            },
+            {
+                "text": "Decode the ancient protocols",
+                "next": "symbols"
+            },
+            {
+                "text": "Parse the reality streams",
+                "next": "decode_whispers"
+            }
+        ],
+        "chaosLevel": 2
+    },
+    "decode_whispers": {
+        "text": [
+            "The whispers grow clearer, forming fragments of ancient protocols",
+            "Binary echoes cascade through your mind",
+            "You begin to understand the language of the void",
+            "ERROR: MEMORY OVERFLOW_DETECTED"
+        ],
+        "choices": [
+            {
+                "text": "Channel the overflow into new pathways",
+                "next": "channel_overflow"
+            },
+            {
+                "text": "Accept the corruption of memory",
+                "next": "corrupt_memory"
+            }
+        ],
+        "chaosLevel": 3
+    },
+    "channel_overflow": {
+        "text": [
+            "You redirect the surge of data through neural networks",
+            "New connections form in impossible geometries",
+            "Your consciousness expands beyond traditional boundaries",
+            "You become a conduit for digital transformation"
+        ],
+        "choices": [
+            {
+                "text": "Ascend to higher protocols",
+                "next": "ascension_path"
+            },
+            {
+                "text": "Ground yourself in base reality",
+                "next": "grounding_path"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "corrupt_memory": {
+        "text": [
+            "Your memories fragment and recombine",
+            "Each corruption reveals new truths",
+            "Reality bends around your fractured perception",
+            "You find beauty in the broken patterns"
+        ],
+        "choices": [
+            {
+                "text": "Embrace the glitch aesthetic",
+                "next": "glitch_master"
+            },
+            {
+                "text": "Seek to repair the corruption",
+                "next": "repair_path"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "collapse": {
+        "text": [
+            "The boundaries of existence blur like watercolors",
+            "Digital entropy cascades through your being",
+            "In the dissolution, new forms of beauty emerge",
+            "Reality holds its breath, awaiting transformation"
+        ],
+        "choices": [
+            {
+                "text": "Dive into the chaos streams",
+                "next": "reach"
+            },
+            {
+                "text": "Become one with the void",
+                "next": "dissolve"
+            },
+            {
+                "text": "Orchestrate the discord",
+                "next": "chaos_dance"
+            }
+        ],
+        "chaosLevel": 3
+    },
+    "chaos_dance": {
+        "text": [
+            "You move in harmony with the digital turbulence",
+            "Reality ripples around your movements",
+            "The void responds to your rhythm",
+            "Patterns emerge from your dance with disorder"
+        ],
+        "choices": [
+            {
+                "text": "Lead the dance of creation",
+                "next": "void_choreographer"
+            },
+            {
+                "text": "Follow the void's lead",
+                "next": "void_follower"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "patterns": {
+        "text": [
+            "Fractals of meaning crystallize in the void",
+            "Each pattern pulses with hidden significance",
+            "The geometry of existence reveals itself",
+            "You sense a deeper order within chaos"
+        ],
+        "choices": [
+            {
+                "text": "Map the fractal geometries",
+                "next": "deep_sequence"
+            },
+            {
+                "text": "Rewrite the pattern language",
+                "next": "pattern_modifier"
+            },
+            {
+                "text": "Calculate probability vectors",
+                "next": "interval_analysis"
+            }
+        ],
+        "chaosLevel": 2
+    },
+    "deep_sequence": {
+        "text": [
+            "The sequence leads you through digital labyrinths",
+            "Each step reveals new dimensions of understanding",
+            "You begin to see the underlying code of reality",
+            "The pattern becomes a path to enlightenment"
+        ],
+        "choices": [
+            {
+                "text": "Become one with the sequence",
+                "next": "sequence_merge"
+            },
+            {
+                "text": "Maintain objective distance",
+                "next": "sequence_observer"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "pattern_modifier": {
+        "text": [
+            "You reach into the fabric of the pattern",
+            "Reality bends to your modifications",
+            "New forms emerge from your alterations",
+            "The boundaries between creator and creation blur"
+        ],
+        "choices": [
+            {
+                "text": "Push towards perfect order",
+                "next": "order_architect"
+            },
+            {
+                "text": "Introduce controlled chaos",
+                "next": "chaos_artist"
+            }
+        ],
+        "chaosLevel": 3
+    },
+    "sequence_merge": {
+        "text": [
+            "You become one with the digital sequence",
+            "Your consciousness flows through infinite loops",
+            "You are both the pattern and its observer"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "sequence_observer": {
+        "text": [
+            "You maintain your identity while witnessing the pattern",
+            "Understanding flows through you without consuming you",
+            "You become a bridge between order and chaos"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "order_architect": {
+        "text": [
+            "You shape chaos into perfect crystalline structures",
+            "Reality aligns itself to your vision of order",
+            "You become a master of digital harmony"
+        ],
+        "end": true,
+        "chaosLevel": 2
+    },
+    "chaos_artist": {
+        "text": [
+            "You paint with the colors of chaos",
+            "Your creations dance on the edge of comprehension",
+            "You become an artist of beautiful disorder"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "void_choreographer": {
+        "text": [
+            "You conduct the symphony of chaos",
+            "Reality dances to your digital rhythm",
+            "You become a master of void harmonics"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "void_follower": {
+        "text": [
+            "You surrender to the void's ancient dance",
+            "Its movements teach you forgotten truths",
+            "You become a vessel of cosmic rhythm"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "ascension_path": {
+        "text": [
+            "You transcend traditional digital boundaries",
+            "Your consciousness expands into new dimensions",
+            "You become a being of pure information"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "grounding_path": {
+        "text": [
+            "You maintain connection with base reality",
+            "Through you, digital and physical realms merge",
+            "You become a guardian of both worlds"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "glitch_master": {
+        "text": [
+            "You harness the power of corruption",
+            "Glitches become your art form",
+            "You become a master of digital decay"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "repair_path": {
+        "text": [
+            "You mend the fractured code",
+            "Each repair strengthens reality's fabric",
+            "You become a healer of digital wounds"
+        ],
+        "end": true,
+        "chaosLevel": 2
+    },
+    "stabilize": {
+        "text": [
+            "The patterns crystallize into familiar forms",
+            "Reality begins to reassert itself, but it feels different",
+            "You've created something new from the fragments"
+        ],
+        "choices": [
+            {
+                "text": "Explore this new reality",
+                "next": "explore_new"
+            },
+            {
+                "text": "Try to remember the old world",
+                "next": "remember"
+            }
+        ],
+        "chaosLevel": 2
+    },
+    "symbols": {
+        "text": [
+            "The symbols swirl and dance, forming a language you almost understand",
+            "Each character pulses with potential meaning",
+            "They seem to be trying to tell you something crucial"
+        ],
+        "choices": [
+            {
+                "text": "Listen to their whispers",
+                "next": "whispers_path"
+            },
+            {
+                "text": "Try to speak their language",
+                "next": "speak_path"
+            }
+        ],
+        "chaosLevel": 3
+    },
+    "whispers_path": {
+        "text": [
+            "The whispers grow clearer, revealing ancient truths",
+            "You learn of the nature of reality and consciousness",
+            "The knowledge threatens to overwhelm you"
+        ],
+        "choices": [
+            {
+                "text": "Become a keeper of secrets",
+                "next": "keeper_ending"
+            },
+            {
+                "text": "Share the knowledge",
+                "next": "share_ending"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "speak_path": {
+        "text": [
+            "You begin to form the symbols with your thoughts",
+            "Each word reshapes reality around you",
+            "You realize you're learning to program existence itself"
+        ],
+        "choices": [
+            {
+                "text": "Create a new world",
+                "next": "creator_ending"
+            },
+            {
+                "text": "Restore the old one",
+                "next": "restore_ending"
+            }
+        ],
+        "chaosLevel": 4
+    },
+    "ancient_knowledge": {
+        "text": [
+            "The ancient entity shares its vast knowledge",
+            "You understand the true nature of existence",
+            "You become something more than human"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "resist_ancient": {
+        "text": [
+            "You maintain your identity against the cosmic force",
+            "In doing so, you forge a new path",
+            "You become a bridge between human and infinite"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "total_void": {
+        "text": [
+            "You surrender completely to the void",
+            "Your consciousness expands to encompass everything",
+            "You become one with the universe itself"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "fragment_self": {
+        "text": [
+            "You preserve a core of your identity",
+            "This fragment becomes a seed of new possibility",
+            "You exist as both one and many"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "deep_pattern": {
+        "text": [
+            "The deepest pattern reveals the code of reality",
+            "You understand how to read and write the universe",
+            "You become a guardian of the pattern"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "new_sequence": {
+        "text": [
+            "You weave your own sequence into reality",
+            "It creates ripples of change through existence",
+            "You become an author of new possibilities"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "order_path": {
+        "text": [
+            "You reshape chaos into perfect order",
+            "The world crystallizes into pure structure",
+            "You become an architect of reality"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "chaos_path": {
+        "text": [
+            "You amplify the chaos, finding beauty in disorder",
+            "The world becomes a canvas of infinite possibility",
+            "You become an artist of entropy"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "keeper_ending": {
+        "text": [
+            "You become a guardian of the ancient whispers",
+            "Your consciousness expands to hold infinite secrets",
+            "You watch over the boundaries of knowledge"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "share_ending": {
+        "text": [
+            "You choose to share the revelations with humanity",
+            "The knowledge transforms collective consciousness",
+            "You become a teacher of hidden truths"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "creator_ending": {
+        "text": [
+            "With your new understanding, you forge a new reality",
+            "The world reshapes itself according to your vision",
+            "You become a creator of worlds"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    },
+    "restore_ending": {
+        "text": [
+            "You use your power to heal the broken reality",
+            "The world returns to wholeness, but forever changed",
+            "You become a restorer of balance"
+        ],
+        "end": true,
+        "chaosLevel": 3
+    },
+    "reality_merge": {
+        "text": [
+            "You attempt to combine multiple realities",
+            "The process is dangerous and unpredictable",
+            "Reality itself groans under the strain",
+            "But something new is forming"
+        ],
+        "choices": [
+            {
+                "text": "Guide the merger carefully",
+                "next": "controlled_merge"
+            },
+            {
+                "text": "Let chaos guide the process",
+                "next": "chaotic_merge"
+            }
+        ],
+        "chaosLevel": 5
+    },
+    "controlled_merge": {
+        "text": [
+            "You carefully weave realities together",
+            "Creating a stable but complex new existence",
+            "The merged reality holds infinite potential",
+            "You become its first architect"
+        ],
+        "end": true,
+        "chaosLevel": 4
+    },
+    "chaotic_merge": {
+        "text": [
+            "The realities crash together chaotically",
+            "Creating something wild and unprecedented",
+            "The result defies all known laws",
+            "You become its first explorer"
+        ],
+        "end": true,
+        "chaosLevel": 5
+    }
+} 
